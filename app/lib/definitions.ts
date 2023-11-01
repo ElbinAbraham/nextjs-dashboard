@@ -17,7 +17,7 @@ export type Customer = {
 };
 
 export type Invoice = {
-  id: string;
+  id: string ;
   customer_id: string;
   amount: number;
   date: string;
